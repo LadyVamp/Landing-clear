@@ -189,7 +189,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	margin-bottom: 30px;
 	color: #333333;
 }
-/* Team Section */
 
 .section-title h2, .section-title.center h2 {
 	font-size: 40px;
@@ -214,27 +213,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e5', end
 	margin-bottom: 50px;
 }
 
-.owl-theme .owl-controls .owl-page span { /*цвет неактивных кружочков у отзывов*/
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 5px 7px;
-	filter: Alpha(Opacity=1);
-	opacity: 1;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 20px;
-	border-radius: 50%;
-	background: #e1f8f4;
-	transition: all 0.5s;
-}
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	filter: Alpha(Opacity=100); /*цвет кружочков у отзывов hover*/
-	opacity: 1;
-	background: #ffcc66;
-}
-.owl-theme .owl-controls .owl-page.active span { /*цвет нажатого кружочка*/
-	background: #ffcc33 ;
-}
+
 /* Services Section */
 #services-section {
 	padding: 80px 0;
@@ -289,6 +268,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	margin: 0 0 30px 0;
 	color: #ffffff;
 }
+
+.owl-theme .owl-controls .owl-page span { /*цвет неактивных кружочков у отзывов*/
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=1);
+	opacity: 1;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 20px;
+	border-radius: 50%;
+	background: #e1f8f4;
+	transition: all 0.5s;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	filter: Alpha(Opacity=100); /*цвет кружочков у отзывов hover*/
+	opacity: 1;
+	background: #ffcc66;
+}
+.owl-theme .owl-controls .owl-page.active span { /*цвет нажатого кружочка*/
+	background: #ffcc33 ;
+}
+
+/* FAQ Section */
+#faq-section {
+	padding: 100px 0;
+	background-color: #ffcc66;
+	color: #333333;
+}
+#faq-section h2 {
+	color: #339933;
+}
+#faq-section .section-title hr {
+	margin-bottom: 30px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4e9e0+0,ffffff+100&amp;1+0,0+100 */
+	background: -moz-linear-gradient(left, rgba(51,153,51,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(51,153,51,1)), color-stop(100%, rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(51,153,51,1) 0%, rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(51,153,51,1) 0%, rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(51,153,51,1) 0%, rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(51,153,51,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
+}
+#faq-section i {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	color: #339933;
+	font-size: 54px;
+}
+#faq-section p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #333333;
+}
+
+
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
