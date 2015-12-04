@@ -390,13 +390,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 
 /*Button up*/
 .btn_up{
-  width: 40px;
   text-align:center;
-  padding-right: 5%;
-  font-size: 25px;
   display: none;
   cursor: pointer;
   position: fixed;
   bottom: 100px;
-  right: 50px;
+  right: 5%;
 }
+.btn_up img{
+  width: 60px;
+ }
