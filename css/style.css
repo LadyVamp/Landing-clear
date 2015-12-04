@@ -112,6 +112,7 @@ hr {
 /* Home Style */
 header {
 	background: url(../img/header-bg.jpg) no-repeat top center;
+	/*background: url(../img/space2.jpg) no-repeat top center;*/
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -385,4 +386,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	font-size: 13px;
 	margin-top: 10px;
 	color: #666;
+}
+
+/*Button up*/
+.btn_up{
+  width: 40px;
+  text-align:center;
+  padding-right: 5%;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
 }
