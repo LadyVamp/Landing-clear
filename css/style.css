@@ -319,9 +319,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	color: #f4f5f6;
 	transition: all 0.5s;
 }
-#social-section .social i.fa:hover {
-	color: #57938b;
+#social-section .social i.fa:hover { /*цвет по умолчанию*/
+	color: #ffcc66;
 }
+#social-section .social i.fa-vk:hover {
+	color: #4c75a3;
+}
+#social-section .social i.fa-odnoklassniki:hover {
+	color: #f97700;
+}
+#social-section .social i.fa-facebook:hover {
+	color: #3b5998;
+}
+#social-section .social i.fa-instagram:hover {
+	color: #ac8269;
+}
+#social-section .social i.fa-twitter:hover {
+	color: #57afe5;
+}
+
+
 /* Footer */
 #footer {
 	background-color: #222222;
