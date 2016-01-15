@@ -66,15 +66,18 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 20px;
-	transition: all 0.8s;
+	padding: 0px;
+	/*transition: all 0.8s;*/
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	/*background-color: rgba(248, 248, 248, 0); прозрачный*/
+	background-color: #000;
 	border-color: rgba(231, 231, 231, 0);
+	/*border-color: rgba(0, 0, 0, 0);*/
+
 }
 #menu a.navbar-brand {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 22px;
 	color: #ffcc66;
 	font-weight: 700;
@@ -136,7 +139,7 @@ header p {
 }
 .intro-text H1 {
 	font-size: 50px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #222;
 	font-weight: 300;
 }
@@ -158,16 +161,16 @@ header p {
 	background-color: #86E2D5;
 	color: #fff;
 }
-/* About Section */
-#about-section {
+/* hypothec Section */
+#hypothec-section {
 	padding: 100px 0;
 	background-color: #ffcc66;
 	color: #333333;
 }
-#about-section h2 {
+#hypothec-section h2 {
 	color: #11a680;
 }
-#about-section .section-title hr {
+#hypothec-section .section-title hr {
 	margin-bottom: 30px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4e9e0+0,ffffff+100&amp;1+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(0,153,153,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
@@ -178,14 +181,14 @@ header p {
 	background: linear-gradient(to right, rgba(0,153,153,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
 }
-#about-section i {
+#hypothec-section i {
 	float: left;
 	display: block;
 	margin-right: 15px;
 	color: #11a680;
 	font-size: 54px;
 }
-#about-section p {
+#hypothec-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	color: #333333;
@@ -215,30 +218,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e5', end
 }
 
 
-/* Services Section */
-#services-section {
+/* Features Section */
+#features-section {
 	padding: 80px 0;
 	background-color: #eff1f1;
 }
 .space {
 	margin-top: 40px;
 }
-#services-section i.fa {
+#features-section i.fa {
 	font-size: 36px;
 	margin-bottom: 10px;
 	transition: all 0.5s;
 	color: #11a680;
 }
 
-/* Testimonials Section */
-#testimonials-section {
+/* conditions Section */
+#conditions-section {
 	padding: 100px 0;
 	background-color: #11a680;
 }
-#testimonials-section h2 {
+#conditions-section h2 {
 	color: #ffcc33;
 }
-#testimonials-section .section-title hr {
+#conditions-section .section-title hr {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4e9e0+0,ffffff+100&amp;1+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(255, 204, 51,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 204, 51,1)), color-stop(100%, rgba(255,255,255,0))); /* Chrome,Safari4+ */
@@ -248,23 +251,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e5', end
 	background: linear-gradient(to right, rgba(255, 204, 51,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
 }
-#testimonials-section i.fa {
+#conditions-section i.fa {
 	color: #ffcc33;
 	font-size: 36px;
 }
-#testimonial {
+#condition {
 	padding: 30px 0;
 }
-#testimonial .img-circle {
+#condition .img-circle {
 	width: 100px;
 	height: 100px;
 }
-#testimonial .item {
+#condition .item {
 	display: block;
 	width: 100%;
 	height: auto;
 }
-#testimonial .item p {
+#condition .item p {
 	font-weight: 400;
 	margin: 0 0 30px 0;
 	color: #ffffff;
@@ -292,16 +295,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	background: #ffcc33 ;
 }
 
-/* FAQ Section */
-#faq-section {
+/* Interaction Section */
+#interaction-section {
 	padding: 100px 0;
 	background-color: #ffcc66;
 	color: #333333;
 }
-#faq-section h2 {
+#interaction-section h2 {
 	color: #11a680;
 }
-#faq-section .section-title hr {
+#interaction-section .section-title hr {
 	margin-bottom: 30px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4e9e0+0,ffffff+100&amp;1+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(0,153,153,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
@@ -312,39 +315,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', end
 	background: linear-gradient(to right, rgba(0,153,153,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
 }
-#faq-section i {
+#interaction-section i {
 	float: left;
 	display: block;
 	margin-right: 15px;
 	color: #11a680;
 	font-size: 54px;
 }
-#faq-section p {
+#interaction-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	color: #333333;
 }
 
 
-/* Contact Section */
-#contact-section {
+/* Resources Section */
+#resources-section {
 	padding: 100px 0;
 	background-color: #eff1f1;
 }
+#resources-section h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#resources-section i.fa { /*иконки в контактах*/
+	color: #11a680;
+	margin-right: 20px;
+}
+
+
+/* Contact Section */
+#contact-section {
+	padding: 100px 0;
+    background-color: #11a680;
+}
+
+#contact-section p{
+	color: #fff;
+}
+
 #contact-section h3 {
 	font-size: 20px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 #contact-section i.fa { /*иконки в контактах*/
-	color: #11a680;
+	color: #ffcc66;
 	margin-right: 20px;
 }
 
 /* Social Section */
 #social-section {
 	padding: 30px 0;
-	background-color: #86E2D5;
+	background-color: #0B1629;
 }
 #social-section .social ul li {
 	display: inline-block;
