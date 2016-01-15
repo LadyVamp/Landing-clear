@@ -21,14 +21,7 @@ h3 {
 	font-size: 20px;
 	font-weight: 600;
 }
-h4 {
-	/*text-transform: uppercase;*/
-}
-h5 {
-	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 20px;
-}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #333;
@@ -40,7 +33,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #1fb9b1;
+	color: #fff;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -79,9 +72,8 @@ ul, ol {
 
 }
 #menu a.navbar-brand {
-	/*text-transform: uppercase;*/
 	font-size: 22px;
-	color: #F9CA21;
+	color: #ff9900;
 	font-weight: 700;
 }
 #menu a.navbar-brand i.fa {
@@ -151,7 +143,7 @@ header p {
 	font-weight: 300;
 }
 .h1-color {
-	color: #F9CA21; 
+	color: #ff9900; 
 	font-weight: 700;
 	text-shadow: 5px 0 5px #333;
 }
@@ -177,14 +169,12 @@ header p {
 }
 #hypothec-section h2 {
 	color: #000;
-
 }
 
 
 #hypothec-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	/*color: #000;*/
 }
 
 .section-title h2, .section-title.center h2 {
@@ -199,7 +189,7 @@ header p {
 /* Features Section */
 #features-section {
 	padding: 100px 0;
-	background-color: #eff1f1;
+	background-color: #fff;
 }
 
 #features-section h2{
@@ -226,11 +216,10 @@ li {
 /* Conditions Section */
 #conditions-section {
 	padding: 100px 0;
-	background-color: #fff;
+	background-color: #ff9900;
 }
 #conditions-section h2 {
-	/*color: #ffcc33;*/
-	color: #ff9900;
+	color: #000;
 }
 
 #condition {
@@ -248,8 +237,8 @@ li {
 /* Interaction Section */
 #interaction-section {
 	padding: 100px 0;
-	background-color: #eff1f1;
-	color: #333333;
+	background-color: #fff;
+	color: #333;
 }
 #interaction-section h2 {
 	color: #ff9900;
@@ -280,7 +269,8 @@ li {
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
-    background-color: #eff1f1;
+    /*background-color: #eff1f1;*/
+    background-color: #fff;
 }
 
 #contact-section p{
@@ -300,7 +290,7 @@ li {
 /* Social Section */
 #social-section {
 	padding: 30px 0;
-	background-color: #0B1629;
+	background-color: #000033;
 }
 #social-section .social ul li {
 	display: inline-block;
@@ -343,6 +333,13 @@ li {
 	margin-top: 10px;
 	color: #666;
 }
+
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #00ccff;
+}
+
 
 /*Button up*/
 .btn_up{
