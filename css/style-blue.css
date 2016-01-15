@@ -115,7 +115,6 @@ hr {
 /* Home Style */
 header {
 	background: url(../img/header-bg.jpg) no-repeat top center;
-	/*background: url(../img/space2.jpg) no-repeat top center;*/
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -139,14 +138,13 @@ header p {
 }
 .intro-text H1 {
 	font-size: 50px;
-	/*text-transform: uppercase;*/
 	color: #222;
 	font-weight: 300;
 }
 .h1-color {
-	color: #11a680; /*	#1fb9b1 */
+	color: #ffcc66; 
 	font-weight: 700;
-	text-shadow: 5px 0 5px #fff;
+	text-shadow: 5px 0 5px #333;
 }
 .btn-default {
 	color: #333;
