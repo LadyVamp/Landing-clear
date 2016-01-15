@@ -217,6 +217,7 @@ li {
 #conditions-section {
 	padding: 100px 0;
 	background-color: #ff9900;
+
 }
 #conditions-section h2 {
 	color: #000;
@@ -233,6 +234,26 @@ li {
 #conditions-section .table-left{
 	text-align: left;
 }
+
+#conditions-section .table-left span{
+	font-weight: bold;
+}
+
+#conditions-section .table-red{
+	color: red;
+	font-weight: bold;
+}
+
+/*Строка при hover:*/
+.table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
+    background-color: #99ccff;
+}
+
+/*Цвет границы: */
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #330000; 
+}
+
 
 /* Interaction Section */
 #interaction-section {
