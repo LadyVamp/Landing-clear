@@ -15,7 +15,7 @@ h2 {
 	margin: 0;
 }
 h3 {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 600;
 }
 h4 {
@@ -28,7 +28,7 @@ h5 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	color: #888;
+	color: #333;
 	line-height: 24px;
 }
 a {
@@ -159,7 +159,7 @@ header p {
 	background-color: #86E2D5;
 	color: #fff;
 }
-/* hypothec Section */
+/* Hypothec Section */
 #hypothec-section {
 	padding: 100px 0;
 	background-color: #ffcc66;
@@ -179,13 +179,14 @@ header p {
 	background: linear-gradient(to right, rgba(0,153,153,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
 }
-#hypothec-section i {
+/*#hypothec-section i {
 	float: left;
 	display: block;
 	margin-right: 15px;
 	color: #11a680;
 	font-size: 54px;
-}
+}*/
+
 #hypothec-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -218,20 +219,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e5', end
 
 /* Features Section */
 #features-section {
-	padding: 80px 0;
+	padding: 100px 0;
 	background-color: #eff1f1;
 }
 .space {
 	margin-top: 40px;
 }
-#features-section i.fa {
-	font-size: 36px;
-	margin-bottom: 10px;
-	transition: all 0.5s;
-	color: #11a680;
+
+ul {
+		list-style-type: square;
 }
 
-/* conditions Section */
+/* Conditions Section */
 #conditions-section {
 	padding: 100px 0;
 	background-color: #11a680;
@@ -249,48 +248,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e5', end
 	background: linear-gradient(to right, rgba(255, 204, 51,1) 0%, rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4e9e0', endColorstr='#00ffffff', GradientType=1 ); /* IE6-9 */
 }
-#conditions-section i.fa {
-	color: #ffcc33;
-	font-size: 36px;
-}
+
 #condition {
 	padding: 30px 0;
 }
-#condition .img-circle {
-	width: 100px;
-	height: 100px;
-}
-#condition .item {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-#condition .item p {
-	font-weight: 400;
-	margin: 0 0 30px 0;
-	color: #ffffff;
+
+#conditions-section table, th{
+	text-align: center;
 }
 
-.owl-theme .owl-controls .owl-page span { /*цвет неактивных кружочков у отзывов*/
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 5px 7px;
-	filter: Alpha(Opacity=1);
-	opacity: 1;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 20px;
-	border-radius: 50%;
-	background: #e1f8f4;
-	transition: all 0.5s;
-}
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	filter: Alpha(Opacity=100); /*цвет кружочков у отзывов hover*/
-	opacity: 1;
-	background: #ffcc66;
-}
-.owl-theme .owl-controls .owl-page.active span { /*цвет нажатого кружочка*/
-	background: #ffcc33 ;
+#conditions-section .table-left{
+	text-align: left;
 }
 
 /* Interaction Section */
