@@ -123,19 +123,16 @@ header {
 }
 
 .slogan{
-	color: #222;
+	color: #ff9900;
     font-size: 18px;
+    font-style: italic;
     margin-top: 50px;
-    margin-left: 8%;
+    margin-left: 7.5%;
     position: relative;
-    background-color: rgba(255,255,255,0.5);
-    padding: 0 4px;
-    border-radius: 2px;
     width: 350px;
 }
 
 .intro-text {
-	color: #222;
 	font-size: 23px;
     margin-left: 8%;
 	position: relative;
@@ -147,7 +144,8 @@ header {
 }
 
 .intro-text p {
-	    line-height: 48px;
+	color: #660000;
+	line-height: 48px;
 }
 
 /*.intro-text H1 {
@@ -310,19 +308,14 @@ li {
 #social-section .social i.fa-vk:hover {
 	color: #4c75a3;
 }
-#social-section .social i.fa-odnoklassniki:hover {
-	color: #f97700;
-}
+
 #social-section .social i.fa-facebook:hover {
 	color: #3b5998;
 }
-#social-section .social i.fa-instagram:hover {
-	color: #ac8269;
-}
-#social-section .social i.fa-twitter:hover {
-	color: #57afe5;
-}
 
+#social-section .social i.fa-linkedin:hover {
+	color: #3b5998;
+}
 
 /* Footer */
 #footer {
