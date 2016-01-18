@@ -115,7 +115,7 @@ ul, ol {
 
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat top center;
+	background: url(../img/header-bg2.jpg) no-repeat top center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -123,7 +123,7 @@ header {
 }
 
 .slogan{
-	color: #ff9900;
+	color: #660000;
     font-size: 18px;
     font-style: italic;
     margin-top: 50px;
@@ -136,10 +136,10 @@ header {
 	font-size: 23px;
     margin-left: 8%;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 420px;
+	padding-bottom: 440px;
     text-align: left;
 }
 
@@ -288,38 +288,34 @@ li {
 }
 
 /* Social Section */
-/*#social-section {
-	padding: 30px 0;
-	background-color: #000033;
-}*/
-
-#social-section .social {
+ .social {
 	text-align: center;
 }
 
-#social-section .social ul li {
+.social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
-#social-section .social i.fa {
+.social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
 	color: #f4f5f6;
 	transition: all 0.5s;
 }
-#social-section .social i.fa:hover { /*цвет по умолчанию*/
-	color: #ffcc66;
-}
-#social-section .social i.fa-vk:hover {
-	color: #4c75a3;
+
+.social-ico img{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-left: 22px;
 }
 
-#social-section .social i.fa-facebook:hover {
-	color: #3b5998;
+.vk-ico img{
+    margin-left: 0;
 }
 
-#social-section .social i.fa-linkedin:hover {
-	color: #3b5998;
+.social-ico img:hover {
+   opacity: 0.7;
 }
 
 /* Footer */
