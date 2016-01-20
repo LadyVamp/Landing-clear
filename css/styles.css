@@ -122,6 +122,7 @@ header {
 	height: 100%;
 }
 
+
 .slogan{
 	color: #660000;
     font-size: 18px;
@@ -158,6 +159,8 @@ header {
 	font-weight: 700;
 	text-shadow: 5px 0 5px #333;
 }*/
+
+
 .btn-default {
 	color: #333;
 	font-family: 'Open Sans', sans-serif;
@@ -172,6 +175,44 @@ header {
 	color: #fff;
 }
 
+/*parallax test*/
+/*body {
+	margin: 0;
+}*/
+section {
+	height: 100vh;
+	background-color: #666;
+	position: relative; 
+	overflow: hidden;
+}
+
+.header_text {
+	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	font-size: 40px;
+	/*text-transform: uppercase;*/
+	color: #fff;
+	height: 40px;
+	text-align: center;
+	width: 240px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*margin-left: -120px;*/
+	/*margin-top: -20px;*/
+	z-index: 5;
+}
+
+.sect_2 .header_text {
+	top: 10%;
+}
+
+.sect_2 img {
+	position: absolute;
+	width: 100%;
+	top: -300px;
+}
+/*end parallax test*/
 
 /* Features Section */
 #features-section {
