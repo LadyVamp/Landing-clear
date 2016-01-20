@@ -115,7 +115,7 @@ ul, ol {
 
 /* Home Style */
 header {
-	background: url(../img/header-bg2.jpg) no-repeat top center;
+	background: url(../img/header-bg.jpg) no-repeat top center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -290,17 +290,6 @@ li {
 /* Social Section */
  .social {
 	text-align: center;
-}
-
-.social ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-.social i.fa {
-	font-size: 30px;
-	padding: 4px 5px;
-	color: #f4f5f6;
-	transition: all 0.5s;
 }
 
 .social-ico img{
