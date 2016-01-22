@@ -113,6 +113,10 @@ ul, ol {
      padding: 15px 0; 
 }
 
+nav li {
+	margin-left: 50px;
+}
+
 /* Home Style */
 header {
 	background: url(../img/header-bg.jpg) no-repeat top center;
@@ -123,38 +127,15 @@ header {
 }
 
 .slogan{
-	/*color: #660000;*/
 	color: #ff9900;
     font-size: 18px;
-    font-style: italic;
     margin-top: 50px;
     margin-left: 7.5%;
     position: relative;
     width: 350px;
 }
 
-/*.intro-text {
-	font-size: 23px;
-    margin-left: 8%;
-	position: relative;
-	padding-top: 100px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 440px;
-    text-align: left;
-}
-
-.intro-text p {
-	color: #fff;
-	line-height: 48px;
-	background-color: rgba(0,51,102,0.8);
-	display: inline-block;
-    padding: 0 4px;
- 	border-radius : 5px;
-}*/
-
-
-.intro-text2 {
+.intro-text {
 	font-size: 23px;
     /*margin-left: 8%;*/
 	position: relative;
@@ -165,7 +146,7 @@ header {
     text-align: left;
 }
 
-.intro-text2 p {
+.intro-text p {
 	color: #fff;
 	line-height: 48px;
 	/*background-color: rgba(0,51,102,0.8);*/
@@ -235,7 +216,7 @@ ul {
 		list-style-type: square;
 }
 
-li {
+#features-section li {
 	margin-left: 50px;
 }
 
@@ -306,6 +287,14 @@ li {
 	color: #333333;
 }
 
+#interaction-section li {
+	margin-left: 110px;
+}
+
+#interaction-section .fa-balance-scale {
+	height: 40px;
+	width: 40px;
+}
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
