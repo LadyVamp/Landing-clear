@@ -81,13 +81,26 @@ ul, ol {
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #878d8f;
+	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1px;
+
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #fff;
+	color: #ff9900;
 }
+
+#menu.navbar-default .navbar-nav > li > span{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	position: relative;
+    display: block;
+    padding: 15px 0;
+}
+
+
 .on {
 	background-color: #000 !important;
 	padding: 0 !important;
@@ -339,15 +352,18 @@ ul {
 /* Footer */
 #footer {
 	background-color: #222222;
-	color: #ddd;
+	color: #fff;
 	padding: 15px 0 10px 0;
 }
-#footer p {
+#footer .copyright {
 	font-size: 13px;
 	margin-top: 10px;
 	color: #666;
 }
 
+#footer .phone-right {
+	text-align: right;
+}
 
 a:hover, a:focus {
 	text-decoration: none;
