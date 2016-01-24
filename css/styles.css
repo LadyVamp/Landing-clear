@@ -308,15 +308,21 @@ ul {
 	height: 40px;
 	width: 40px;
 }
+
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
-    /*background-color: #eff1f1;*/
-    background-color: #ffcc66;
+    background-color: #1A1A1A;
 }
 
+
+#contact-section h2 {
+	color: #fff;
+}
+
+
 #contact-section p{
-	color: #000;
+	color: #909090;
 }
 
 #contact-section h3 {
@@ -325,33 +331,53 @@ ul {
 	text-transform: uppercase;
 }
 #contact-section i.fa { /*иконки в контактах*/
-	color: #ff9900;
+	/*color: #ff9900;*/
 	margin-right: 20px;
 }
 
-/* Social Section */
- .social {
-	text-align: center;
+#contact-section .fa-vk:hover {
+   color: #4C75A3;
 }
 
-.social-ico img{
-    display: inline-block;
-    width: 46px;
-    height: 46px;
-    margin-left: 22px;
+#contact-section .fa-facebook:hover {
+   color: #3765A3;
 }
 
-.vk-ico img{
-    margin-left: 0;
+#contact-section .fa-linkedin:hover {
+   color: #0274B3;
 }
 
-.social-ico img:hover {
-   opacity: 0.7;
+#contact-section  .social-icons i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-top: 1px;
+    margin: 0 10px;
 }
+
+
+.social-icons i {
+    color: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 34px;
+    text-align: center;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.social-icons li {
+	display: inline-block;
+}
+
 
 /* Footer */
 #footer {
-	background-color: #222222;
+	/*background-color: #222222;*/
+	background-color: #000;
 	color: #fff;
 	padding: 15px 0 10px 0;
 }
@@ -369,6 +395,7 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #00ccff;
 }
+
 
 
 /*Button up*/
