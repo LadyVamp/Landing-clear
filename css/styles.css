@@ -130,17 +130,27 @@ nav li {
 	margin-left: 50px;
 }
 
+#menu .logo img{
+	/*background-size: 30px auto;*/
+	margin: 0;
+	padding: 0;
+}
+
+/*#menu .logo {
+	padding: 0px 0px;
+}
+*/
+.navbar-brand {
+	padding: 0px 0px;
+}
 /* Header-section */
 #header-section {
-	height: 100% !important;
+	/*height: 100% !important;*/
 	margin: 0 auto;
-}
-#header-section {
 	background: url(../img/header-bg.jpg) no-repeat top center;
 	background-size: cover;
 	background-position: center center;
-	height: 100% !important;
-	color: #cfcfcf;
+	/*color: #cfcfcf;*/
 	height: 100%;
 	position: relative;
 }
@@ -156,7 +166,7 @@ nav li {
 .intro-text {
 	font-size: 23px;
 	position: relative;
-	padding-top: 580px;
+	padding-top: 650px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 0;
