@@ -130,54 +130,51 @@ nav li {
 	margin-left: 50px;
 }
 
-/* Home Style */
-header {
+/* Header-section */
+#header-section {
+	height: 100% !important;
+	margin: 0 auto;
+}
+#header-section {
 	background: url(../img/header-bg.jpg) no-repeat top center;
 	background-size: cover;
+	background-position: center center;
+	height: 100% !important;
 	color: #cfcfcf;
-	position: relative;
 	height: 100%;
+	position: relative;
 }
 
-/*.slogan{
-	color: #ff9900;
-    font-size: 18px;
-    margin-top: 50px;
-    margin-left: 7.5%;
-    position: relative;
-    width: 370px;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px black; 
-}*/
+.background-strip {
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	bottom: 0px;
+	background: rgba(0,0,0,0.7);
+}
 
 .intro-text {
 	font-size: 23px;
-    /*margin-left: 8%;*/
 	position: relative;
 	padding-top: 580px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 0;
     text-align: left;
+	width: 100%;
 }
 
 .intro-text p {
 	color: #fff;
 	line-height: 48px;
-	/*background-color: rgba(0,51,102,0.8);*/
-	background-color: rgba(0,0,0,0.7);
-	
 	display: inline-block;
     padding: 0 4px;
  	border-radius : 5px;
- 	width:100%;
+ 	width: 100%;
  	padding-top: 50px;
  	padding-bottom: 50px;
  	margin-bottom: -1px;
- 	padding-left: 8%;
-
 }
-
 
 
 /*.intro-text H1 {
