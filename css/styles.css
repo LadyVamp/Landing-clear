@@ -255,7 +255,7 @@ ul {
 .table-conditions {
 	/*width: 600px; */
 	height: 520px;
-	background: url(../img/conditions.png) no-repeat top center;
+	background: url(../img/empty-conditions.png) no-repeat top center;
 }
 
 /*#condition {
