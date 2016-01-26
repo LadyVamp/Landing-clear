@@ -252,42 +252,68 @@ ul {
 	color: #000;
 }
 
-.table-conditions {
-	/*width: 600px; */
+/*.table-conditions {
 	height: 520px;
 	background: url(../img/empty-conditions.png) no-repeat top center;
 }
-
-/*#condition {
-	padding: 30px 0;
-}
 */
-
-/*#conditions-section table, th, .table-center{
+.table-conditions {
 	text-align: center;
 }
 
-#conditions-section .table-left{
-	text-align: left;
+.left-condition, .right-condition, .center-condition {
+	height: 500px;
+	width: 295px;
+	background-color: #ff6600;
+	display: inline-block;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.9); /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
 }
 
-#conditions-section span{
-	font-weight: bold;
+.left-condition {
+
 }
 
-
-Строка при hover:
-.table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
-    background-color: #99ccff;
+.center-condition {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.right-condition {
+	
 }
 
-Цвет границы: 
-.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
-    border: 1px solid #330000; 
-}*/
+.cap {
+	height: 152px;
+	background-color: #cc3300;
+}
 
+/*.prepayment {
+	height: 88px;
+	width: 276px;
+	background-color: #fff;
+	margin: 0px 10px;
+}
+*/
+.prepayment, .deal {
+	height: 88px;
+	width: 276px;
+	background-color: #fff;
+	margin: 0px 10px;
+}
 
+.table-space {
+	height: 20px;
+}
 
+.deal {
+	
+}
+
+.total {
+	height: 98px;
+	width: 276px;
+	background-color: #fff;
+	margin: 0px 10px;
+}
 /* Interaction Section */
 #interaction-section {
 	padding: 100px 0;
