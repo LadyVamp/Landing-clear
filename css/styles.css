@@ -242,7 +242,11 @@ ul {
 /* Conditions Section */
 #conditions-section {
 	padding: 100px 0;
-	background-color: #ffcc66;
+	/*background-color: #ffcc66;*/
+	background: url(../img/office.jpg) no-repeat top center;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
 }
 #conditions-section h2 {
 	color: #ff6600;
@@ -256,7 +260,7 @@ ul {
 .left-condition, .right-condition, .center-condition {
 	height: 500px;
 	width: 295px;
-	background-color: #ff6600;
+	background-color: #222;
 	display: inline-block;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.9); /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
 	margin-bottom: 20px;
@@ -277,8 +281,8 @@ ul {
 
 .cap {
 	height: 152px;
-	background-color: #cc3300;
-	font-size: 35px;
+	background-color: #ff6600;
+	font-size: 33px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
