@@ -12,7 +12,7 @@ h1 strong {
 }
 h2 {
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 37px;
 	line-height: 20px;
 	margin: 0;
 }
@@ -242,7 +242,6 @@ ul {
 /* Conditions Section */
 #conditions-section {
 	padding: 100px 0;
-	/*background-color: #ffcc66;*/
 	background: url(../img/office.jpg) no-repeat top center;
 	background-size: cover;
 	background-position: center center;
@@ -259,12 +258,11 @@ ul {
 
 .left-condition, .right-condition, .center-condition {
 	height: 500px;
-	width: 295px;
+	width: 250px;
 	background-color: #222;
 	display: inline-block;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.9); /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
 	margin-bottom: 20px;
-	/*position: relative;*/
 }
 
 .left-condition {
@@ -282,7 +280,7 @@ ul {
 .cap {
 	height: 152px;
 	background-color: #ff6600;
-	font-size: 33px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -306,9 +304,9 @@ ul {
 	
 }
 
-.prepayment, .deal {
+.prepayment, .deal, .total {
 	height: 88px;
-	width: 276px;
+	width: 230px;
 	background-color: #fff;
 	margin: 0px 10px;
 }
@@ -321,25 +319,20 @@ ul {
 	
 }
 
-.total {
-	height: 98px;
-	width: 276px;
-	background-color: #fff;
-	margin: 0px 10px;
-}
 .prepayment, .deal, .total {
-	font-size: 33px;
-	padding-top: 25px;
+	font-size: 30px;
+	padding-top: 20px;
 } 
 
 .left-condition .deal {
-	padding-top: 30px;
+	/*padding-top: 20px;*/
 	line-height: 80%;
 }
 
 .total {
 	font-weight: bold;
 }
+
 
 /* Interaction Section */
 #interaction-section {
