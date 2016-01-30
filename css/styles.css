@@ -130,9 +130,15 @@ nav li {
 	margin-left: 50px;
 }
 
-#menu .logo img{
+/*#menu .logo img{
 	margin: 0;
 	padding: 0;
+}*/
+
+#menu .navbar-header img{
+	margin: 0;
+	padding: 0;
+	height: 45px;
 }
 
 .navbar-brand {
