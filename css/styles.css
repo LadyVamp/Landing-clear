@@ -248,7 +248,7 @@ ul {
 /* Conditions Section */
 #conditions-section {
 	padding: 100px 0;
-	background: url(../img/conditions-bg.jpg) no-repeat  scroll 0% 0%;;
+	background: url(../img/conditions-bg.jpg) no-repeat top center;
 	background-size: cover;
 	background-position: center center;
 	height: 100%;

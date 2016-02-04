@@ -1,5 +1,5 @@
   /*=============================
-  Animation Conditions
+  Animation Conditions (disable 4-2-16)
   =============================*/
 
   $(window).scroll(function() {
