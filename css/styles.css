@@ -157,49 +157,47 @@ nav li {
 }
 
 .intro-text {
-	font-size: 23px;
 	position: relative;
 	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 200px;
-    text-align: left;
 	width: 100%;
-	text-align: center;
 }
 
-.intro-text p {
+.intro-text h1 {
 	color: #fff;
 	line-height: 48px;
 	display: inline-block;
     padding: 0 4px;
- 	border-radius : 5px;
  	width: 100%;
  	padding-top: 50px;
  	padding-bottom: 50px;
+ 	margin-top: 0;
  	margin-bottom: -1px;
+ 	font-size: 21px;
+ 	text-align: left;
 }
-
+.center-logo, .slogan {
+	display: inline-block;
+}
 .center-logo {
  	padding-top: 150px;
 	width: 200px;
-	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .center-logo img{
 	width: 200px;
+	float: left;
 }
 
-
-/*
-.1screen-bg  {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	bottom: 0px;
-	background: rgba(0,0,0,0.5);
+.slogan {
+	color: #EB6A1D;
+	font-size: 15px;
+	padding-left: 10px;
 }
-*/
 
 /*.intro-text H1 {
 	font-size: 50px;
