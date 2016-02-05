@@ -6,6 +6,7 @@ body, html {
 	font-size: 16px;
 }
 h1 {
+
 }
 h1 strong {
 	font-weight: 900;
@@ -147,33 +148,24 @@ nav li {
 
 /* Header-section */
 #header-section {
-	/*height: 100% !important;*/
 	margin: 0 auto;
-	background: url(../img/header-bg.jpg) no-repeat top center;
+	background: url(../img/header-bg-op75.jpg) no-repeat top center;
 	background-size: cover;
 	background-position: center center;
-	/*color: #cfcfcf;*/
 	height: 100%;
 	position: relative;
-}
-
-.background-strip {
-	position: absolute;
-	height: 200px;
-	width: 100%;
-	bottom: 0px;
-	background: rgba(0,0,0,0.7);
 }
 
 .intro-text {
 	font-size: 23px;
 	position: relative;
-	padding-top: 650px;
+	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 0;
+	padding-bottom: 200px;
     text-align: left;
 	width: 100%;
+	text-align: center;
 }
 
 .intro-text p {
@@ -188,6 +180,26 @@ nav li {
  	margin-bottom: -1px;
 }
 
+.center-logo {
+ 	padding-top: 150px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.center-logo img{
+	width: 200px;
+}
+
+
+/*
+.1screen-bg  {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom: 0px;
+	background: rgba(0,0,0,0.5);
+}
+*/
 
 /*.intro-text H1 {
 	font-size: 50px;
