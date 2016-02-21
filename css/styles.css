@@ -30,7 +30,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	line-height: 24px;
-	/*font-size: 14px;*/
 }
 a {
 	color: #999;
@@ -134,11 +133,6 @@ nav li {
 	margin-left: 50px;
 }
 
-/*#menu .logo img{
-	margin: 0;
-	padding: 0;
-}*/
-
 #menu .navbar-header img{
 	margin: 0;
 	padding: 0;
@@ -164,7 +158,7 @@ nav li {
 	padding-top: 100px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 	width: 100%;
 }
 
@@ -192,26 +186,10 @@ nav li {
 }
 
 .center-logo img{
-	width: 200px;
+	width: 600px;
 	float: left;
 }
 
-.slogan {
-	color: #EB6A1D;
-	font-size: 15px;
-	padding-left: 10px;
-}
-
-/*.intro-text H1 {
-	font-size: 50px;
-	color: #222;
-	font-weight: 300;
-}*/
-/*.h1-color {
-	color: #ff9900; 
-	font-weight: 700;
-	text-shadow: 5px 0 5px #333;
-}*/
 .btn-default {
 	color: #333;
 	font-family: 'Open Sans', sans-serif;
