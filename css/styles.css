@@ -1,3 +1,6 @@
+body {margin:0; padding:0;}
+
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -475,6 +478,7 @@ ul {
 
 #footer .phone-right {
 	text-align: right;
+	float: right;
 }
 
 a:hover, a:focus {
